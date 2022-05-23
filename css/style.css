@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 /* COMMONS */
 img{
     max-width: 100%;
@@ -18,11 +22,39 @@ ul{
     padding: 0.5rem;
 }
 
+/* SCORE */
+.review-score{
+    display: inline-block;
+    padding: 1rem 0;
+}
+
+.green-score-circle{
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background-color: green;
+    margin: 0 1px;
+    display: inline-block;
+}
+
+.review-number{
+    font-size: 1.2rem;
+    text-decoration: dashed;
+    display: inline-block;
+}
+
+.review-score span{
+    display: inline-block;
+}
 
 
-    /* BREAKPOINTS 
+
+
+
+
+/* BREAKPOINTS 
     sm - 570
     md - 768
     lg - 992
     xl - 1200
-    */
+*/
