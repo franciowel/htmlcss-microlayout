@@ -12,6 +12,7 @@ body{
 /* COMMONS */
 img{
     max-width: 100%;
+    object-fit: contain;
 }
 
 ul{
@@ -22,7 +23,11 @@ ul{
     padding: 0.5rem;
 }
 
-/* SCORE */
+/* REVIEW AND SCORE */
+.review-card{
+    padding: 0.5rem;
+}
+
 .review-score{
     display: inline-block;
     padding: 1rem 0;
@@ -47,6 +52,31 @@ ul{
     display: inline-block;
 }
 
+/* PRICE */
+
+.price-card{
+    padding: 0.5rem;
+}
+
+/* RESPONSIVE */
+
+@media screen and (min-width: 992px) {
+    .trip-card{
+        display: flex;
+    }
+
+    .info-card{
+        display: flex;
+    }
+
+    .review-card{
+        order: 2;
+    }
+
+    .price-card{
+        order: 1;
+    }
+}
 
 
 
