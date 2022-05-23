@@ -1,0 +1,28 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* COMMONS */
+img{
+    max-width: 100%;
+}
+
+ul{
+    list-style: none;
+}
+
+.card-contain{
+    padding: 0.5rem;
+}
+
+
+
+    /* BREAKPOINTS 
+    sm - 570
+    md - 768
+    lg - 992
+    xl - 1200
+    */
